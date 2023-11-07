@@ -47,13 +47,13 @@ BOT_TOKEN = environ['BOT_TOKEN']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/d8b82d0a1d20da5f0cf65.jpg https://telegra.ph/file/ac56302ae11da42519c1d.jpg https://telegra.ph/file/43c7e4d3c2e327bd9b02e.jpg https://telegra.ph/file/77283bdd7509ba368a43f.jpg https://telegra.ph/file/1157e9c4f1ab715996334.jpg')).split()
-NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/c53e593b9c913cd73a824.jpg")
-SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/80dcffebb47e116a65758.jpg")
+USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
+PICS = (environ.get('PICS', 'https://telegra.ph/file/5fe8fe2657a254ace9ea1.jpg https://telegra.ph/file/c28b06c75b9f3a861871c.jpg https://telegra.ph/file/102bc6bfbfc1f39cc33ad.jpg https://telegra.ph/file/8e8ebbcbb1d0887707045.jpg https://telegra.ph/file/571c674cdb2d72b347de6.jpg https://telegra.ph/file/d1403ac4b4bfa23c86b5d.jpg https://telegra.ph/file/3cb1aada3e7c93a543d3e.jpg https://telegra.ph/file/8b44b463a19d16e45e6bf.jpg https://telegra.ph/file/bf0f6fd573cc757e4a12b.jpg https://telegra.ph/file/3d0d446918acd46b0609a.jpg https://telegra.ph/file/9d5cd3d5d0b9d9f65b6c0.jpg https://telegra.ph/file/3eae381cedb25cff38b72.jpg')).split()
+NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/46443096bc6895c74a716.jpg")
+SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/1d1eb0f99e0125979ace3.jpg")
 
 # Welcome area
-MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/f75dc5a5f440e2ffe43e7.jpg")
+MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/bf0f6fd573cc757e4a12b.jpg")
 MELCOW_VID = environ.get('MELCOW_VID',"https://graph.org/file/11c15b34849e1d5e24269.mp4")
 
 
@@ -73,7 +73,7 @@ COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "doctorstrange")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Yoon")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 MONGO_URL = os.environ.get('MONGO_URL', "")
 
@@ -81,10 +81,10 @@ MONGO_URL = os.environ.get('MONGO_URL', "")
 # Others
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
-MAX_BTN = int(environ.get('MAX_BTN', "8"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/wudixh1")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/wudixh")
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/wudixh2")
+MAX_BTN = int(environ.get('MAX_BTN', "10"))
+S_GROUP = environ.get('S_GROUP',"https://t.me/Teamyoonseri")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/FT_Channels")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/yoonserifiles")
 MSG_ALRT = environ.get('MSG_ALRT', '𝙺𝚞𝚝𝚝𝚞 𝙱𝚘𝚝 ❣️')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
