@@ -11,7 +11,7 @@ class script(object):
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
 ✯ Cʀᴇᴀᴛᴏʀ: <a href='tg://settings'>Tʜɪs ᴘᴇʀsᴏɴ</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
-✯ Dᴇᴠᴏʟᴏᴘᴇʀ: <a href='https://t.me/wudixh13'>Goutham S E R</a>
+✯ Dᴇᴠᴏʟᴏᴘᴇʀ: <a href='https://t.me/ftadminbot'>FT Admin</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
 ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
 ✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://t.me/quickfastt'>Qᴜɪᴄᴋ Fᴀsᴛ</a>
