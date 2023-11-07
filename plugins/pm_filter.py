@@ -154,7 +154,7 @@ async def next_page(bot, query):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
+            InlineKeyboardButton(f'  {search}  ', 'qinfo')
         ]
     )
     btn.insert(1, 
@@ -566,8 +566,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ💕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('Mᴏᴠɪᴇ ɢʀᴏᴜᴘ🎥', url='https://t.me/wudixh'),
-            InlineKeyboardButton('Oᴡɴᴇʀ👤', url='https://t.me/im_goutham_josh')
+            InlineKeyboardButton('Mᴏᴠɪᴇ ɢʀᴏᴜᴘ🎥', url='https://t.me/FT_Chats'),
+            InlineKeyboardButton('Oᴡɴᴇʀ👤', url='https://t.me/FTAdminbot')
             ],[      
             InlineKeyboardButton('Hᴇʟᴘ🔧', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ🖥', callback_data='about')
@@ -823,7 +823,7 @@ async def auto_filter(client, msg, spoll=False):
                     callback_data=f'{pre}#{file.file_id}',
                 ),
                 InlineKeyboardButton(
-                    text=f"🎭 {get_size(file.file_size)}🔸",
+                    text=f" {get_size(file.file_size)}",
                     callback_data=f'{pre}#{file.file_id}',
                 ),
             ]
@@ -831,7 +831,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
+            InlineKeyboardButton(f'  {search}  ', 'qinfo')
         ]
     )
     btn.insert(1, 
