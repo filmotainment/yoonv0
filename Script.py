@@ -147,26 +147,9 @@ Name - {}
 </b>
 """
 
-    IMDB_TEMPLATE_TXT = """
-<b>🔖 ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
+    IMDB_TEMPLATE_TXT = """<u><b>{title}</b></u>\n\n‣ 𝖦𝖾𝗇𝗋𝖾𝗌: {genres}\n‣ 𝖸𝖾𝖺𝗋: {year}\n‣ 𝖱𝖺𝗍𝗂𝗇𝗀: {rating}\n‣ 𝖱𝗎𝗇𝖳𝗂𝗆𝖾: {runtime} 𝗆𝗂𝗇𝗎𝗍𝖾𝗌 \n‣ 𝖠𝖼𝗍𝗈𝗋𝗌: {cast}\n‣ 𝖣𝗂𝗋𝖾𝖼𝗍𝗈𝗋: {director}\n\n‣ 𝖯𝗅𝗈𝗍: {plot}\n©{message.chat.title}"""
 
-🎭 ɢᴇɴʀᴇs : {genres}
-🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
-
-📆 ʏᴇᴀʀ : {release_date}
-🗞 ʟᴀɴɢᴜᴀɢᴇ : {languages}
-🌎 ᴄᴏᴜɴᴛʀʏ : {countries}
-📖 sᴛᴏʀʏ : {plot} 
-
-©{message.chat.title}</b>
-"""
-
-    CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-
-╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/wudixh> ᴍᴏᴠɪᴇ ʜᴜʙ </a>
-▫️<a href=https://t.me/wudixh13> Kuttu Bot Update </a>
-╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""" 
+    CUSTOM_FILE_CAPTION = """<code>{file_name}\n\nSize: {file_size}</code>""" 
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
