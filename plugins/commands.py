@@ -44,8 +44,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ💕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('Mᴏᴠɪᴇ ɢʀᴏᴜᴘ🎥', url='https://t.me/wudixh'),
-            InlineKeyboardButton('Oᴡɴᴇʀ👤', url='https://t.me/im_goutham_josh')
+            InlineKeyboardButton('Mᴏᴠɪᴇ ɢʀᴏᴜᴘ🎥', url='https://t.me/FT_Chats'),
+            InlineKeyboardButton('Oᴡɴᴇʀ👤', url='https://t.me/FTAdminbot')
             ],[      
             InlineKeyboardButton('Hᴇʟᴘ🔧', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ🖥', callback_data='about')
@@ -93,8 +93,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ💕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('Mᴏᴠɪᴇ ɢʀᴏᴜᴘ🎥', url='https://t.me/wudixh'),
-            InlineKeyboardButton('Oᴡɴᴇʀ👤', url='https://t.me/im_goutham_josh')
+            InlineKeyboardButton('Mᴏᴠɪᴇ ɢʀᴏᴜᴘ🎥', url='https://t.me/FT_Chats'),
+            InlineKeyboardButton('Oᴡɴᴇʀ👤', url='https://t.me/FTAdminbot')
             ],[      
             InlineKeyboardButton('Hᴇʟᴘ🔧', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ🖥', callback_data='about')
